@@ -1,0 +1,47 @@
+body {
+    background-color: #537A5A;
+    margin: 0;
+    margin: 2em;
+}
+
+h1 {
+    background-color: #2C302E;
+    color: #9AE19D;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+section {
+    margin-bottom: 4em;
+}
+
+.originals {
+    background-color: #9AE19D;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    border-radius: 15px;
+}
+
+.original-container {
+    padding-left: 2em;
+    padding-top: 0.0125em;
+    padding-bottom: 0.5em;
+}
+
+.copies {
+    background-color: #474A48;
+    color: #9AE19D;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 15px;
+}
+
+.copy-container {
+    padding-left: 2em;
+    padding-top: 0.0125em;
+    padding-bottom: 0.5em;
+}
