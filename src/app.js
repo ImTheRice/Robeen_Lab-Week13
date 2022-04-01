@@ -1,9 +1,12 @@
 const originals = document.querySelector(".original-container")
+const cloneRecipient = document.querySelector(".copy-container")
 
-originals.addEventListener('click', item_copy)
+originals.addEventListener('click', itemCopy)
 
-function item_copy(event) {
+function itemCopy(event) {
     if (event.target != originals) {
-        console.log(event.target.innerHTML)
+        const to_clone = event.target.closest("div")
+        const clone = to_clone.cloneNode(true)
+        cloneRecipient.append(clone)
     }
 }
